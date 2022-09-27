@@ -27,30 +27,29 @@
 	</properties>
 	
    <repositories>
-	<repository>
-           <id>springfeed</id>
-           <url>https://pkgs.dev.azure.com/rajatankala1999/artifact/_packaging/springfeed/maven/v1</url>
-           <releases>
-           <enabled>true</enabled>
-           </releases>
-           <snapshots>
-           <enabled>true</enabled>
-           </snapshots>
+        <repository>
+             <id>springfeed</id>
+             <url>https://pkgs.dev.azure.com/bijjamvinay9666/artifact/_packaging/springfeed/maven/v1</url>
+             <releases>
+             <enabled>true</enabled>
+             </releases>
+             <snapshots>
+             <enabled>true</enabled>
+             </snapshots>
         </repository>
-    </repositories>
-	
-    <distributionManagement>
-	<repository>
-           <id>springfeed</id>
-           <url>https://pkgs.dev.azure.com/rajatankala1999/artifact/_packaging/springfeed/maven/v1</url>
-           <releases>
-           <enabled>true</enabled>
-           </releases>
-           <snapshots>
-           <enabled>true</enabled>
-           </snapshots>
-        </repository>
-    </distributionManagement>
+</repositories>
+        <distributionManagement>
+             <repository>
+             <id>springfeed</id>
+             <url>https://pkgs.dev.azure.com/bijjamvinay9666/artifact/_packaging/springfeed/maven/v1</url>
+             <releases>
+             <enabled>true</enabled>
+             </releases>
+             <snapshots>
+             <enabled>true</enabled>
+             </snapshots>
+             </repository>
+        </distributionManagement>
 	
 	<!-- only for Azure DevOps - Used the below tag for feeds -->
       <repositories>
